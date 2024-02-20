@@ -44,7 +44,7 @@ Chat with your Data is a Streamlit application designed to facilitate interactiv
 
 3. Choose a language model for the chatbot and enter the corresponding API key.
 
-4. Interact with the chatbot by typing questions about the data.
+4. Open your web browser and navigate to the provided AWS Studio URL, removing any trailing parameters (e.g., "lab?") after the default, and then append /proxy/8501(port number)/ to the end. The URL format should look like this: https://{NOTEBOOK_URL}/proxy/8501/.(This Instructions is only for AWS studio). Enter prompts and receive natural language responses from the chatbot.
 
 ## Note ⚠️⚠️
 
