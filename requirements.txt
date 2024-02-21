@@ -5,3 +5,4 @@ pandas==1.5.3
 requests==2.31.0
 langchain-openai==0.0.5
 langchain-google-genai==0.0.6
+langchain-core==0.1.18
