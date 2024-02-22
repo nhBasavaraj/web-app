@@ -1,1 +1,13 @@
+1.	AWS Beanstalk Deployment:
+  •	Deployed the web application on AWS Beanstalk.
+  •	Encountering an error: "Failed to launch environment."
+  •	The error message indicates: "The instance profile aws-elasticbeanstalk-ec2-role associated with the environment does not exist."
+  •	Investigation is pending; further analysis needed to address this issue.
+
+2.	AWS EC2 Deployment:
+  •	Successfully deployed the web application on AWS EC2.
+  •	Functionality is operational; the web app is running smoothly.
+  •	However, encountering a JSON Decode error when attempting to fetch and save data from an API.
+  •	Currently engaged in troubleshooting to resolve this issue.
+  •	Will provide updates on the resolution process once the problem is resolved.
 
