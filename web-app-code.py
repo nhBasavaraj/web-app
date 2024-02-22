@@ -202,7 +202,7 @@ def main():
     # Display conversation history
     for entry in st.session_state.conversation_history:
         st.chat_message("user").write(entry['user_question'])
-        st.chat_message("assistant", avatar="https://raw.githubusercontent.com/Fig-MLOps/web-app/main/fig%20logo-04.png").write(entry['agent_response'])
+        st.chat_message("assistant", avatar="./fig logo-04.png").write(entry['agent_response'])
 
     # Button to clear conversation history using on_click
     st.button("Clear Conversation", on_click=reset_conversation)
