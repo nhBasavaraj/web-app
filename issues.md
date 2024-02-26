@@ -31,3 +31,22 @@
   - Before running or using the app, it's recommended to install all required libraries and tools mentioned in the requirements.txt file.
 - **Example:**
   - If a required library like matplotlib is not installed, and the agent is asked to plot a chart, it will try to import the library. If the import fails, it will attempt to install the library. However, since the agent can't install libraries, this process will fail continuously until the agent stops due to iteration or time limit.
+ 
+### 4. JSONDecode Error in SageMaker Notebook
+- **Status:** Resolved ✅
+- **Description:**
+  - Encountered JSONDecode error when fetching data from the source using API in SageMaker Notebook.
+- **Issue Resolution:**
+  - **Encoding Setup**: 
+    - Implemented the `Accept-Encoding` header in the request with parameters `'gzip, deflate, br'`. 
+    - This header informs the server about the client's ability to handle different compression methods.
+    - By specifying accepted encodings, it allows the server to compress its response accordingly, reducing data transfer size and potential errors during decoding.
+  - **Correct Handling of Response**: 
+    - Utilized the `response.json()` method to decode the response content.
+    - This method ensures that the response is correctly parsed as JSON format, preventing JSONDecode errors.
+  - **Data Extraction and Saving**: 
+    - Extracted the relevant data from the decoded JSON response using appropriate data manipulation techniques.
+    - Saved the extracted data to a CSV file named 'output.csv' for further analysis or use.
+  - **Confirmation Message**: 
+    - Printed a confirmation message indicating the successful saving of the CSV file along with its file path.
+
