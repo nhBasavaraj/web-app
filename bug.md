@@ -16,4 +16,3 @@ The LLM should consistently provide the sample data in tabular form when request
 The LLM response is inconsistent, sometimes providing the expected table data and other times giving a generic response.
 
 
-NOTE: The solution to this bug will be updated here tomorrow. 
