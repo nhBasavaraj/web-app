@@ -64,4 +64,5 @@ This project enables users to ask questions based on the content of a PDF file a
 - `requirements.txt`: List of Python dependencies.
 - `README.md`: Project documentation.
 - `.env`: Environment variable configuration file (not included in the repository).
+- `Sample-output-X.png`: sample responses screenshots
 
