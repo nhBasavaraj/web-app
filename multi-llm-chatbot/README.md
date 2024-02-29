@@ -31,7 +31,7 @@ This project enables users to ask questions based on the content of a PDF file a
 1. Run the Streamlit app:
 
     ```bash
-    streamlit run app.py
+    streamlit run PDF-QnA-gemini-palm-2.py
     ```
 
 2. Upload a PDF file:
@@ -60,7 +60,7 @@ This project enables users to ask questions based on the content of a PDF file a
 
 ## File Structure
 
-- `app.py`: Main Streamlit application script.
+- `PDF-QnA-gemini-palm-2.py`: Main Streamlit application script.
 - `requirements.txt`: List of Python dependencies.
 - `README.md`: Project documentation.
 - `.env`: Environment variable configuration file (not included in the repository).
