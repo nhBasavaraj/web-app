@@ -66,3 +66,10 @@ This project enables users to ask questions based on the content of a PDF file a
 - `.env`: Environment variable configuration file (not included in the repository).
 - `Sample-output-X.png`: sample responses screenshots
 
+# Summary of the chatbot's performance
+
+- Successfully fetches and provides information from cricket and ads datasets.
+- Efficiently handles fetch and provide type questions.
+- Encounter challenges with mathematical calculations, resulting in inaccurate answers.
+- Gemini LLM outperforms PaLM-2, providing more accurate responses and better handling of missing data scenarios.
+
