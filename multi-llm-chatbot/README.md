@@ -65,7 +65,7 @@ This project enables users to ask questions based on the content of a PDF file a
 - `README.md`: Project documentation.
 - `.env`: Environment variable configuration file (not included in the repository).
 - `Sample-output-X.png`: sample responses screenshots
-- `cricket-data-5-page.pdf` & ``: The file that is used to test the chatbot.
+- `cricket-data-5-page.pdf` & `FB-Dataset.csv`: The file that is used to test the chatbot.
 
 # Summary of the chatbot's performance
 
